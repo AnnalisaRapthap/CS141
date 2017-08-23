@@ -1,33 +1,23 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
+int main() 
 {
-    int a;
-    char b;
-    float c;
-    double d;
-    bool e=true;
-    bool f=false;
-
-    cout << "Enter integer=";
-    cin >> a;
-    cout << "Enter a float=";
-    cin >> c;
-    cout << "Enter any character=";
-    cin >> b;
-    cout << "Enter double=";
-    cin >> d;
-    cout << "Is Integer greater than float?";
-    if(a>c)
-    {
-
-
-        cout << e;
-    }
-        else
-            cout << f;
-
-return 0 ;
+	int a;
+	float b;
+	char c;
+	bool d=true;
+	bool e=false;
+	cout << "Enter Integer" << endl;
+	cin >> a;
+	cout << "Integer=" << a << endl;
+	cout << "Enter Float" << endl;
+	cin >> b;
+	cout << "Float=" << b << endl;
+	cout << "Enter character" << endl;
+	cin >> c;
+	cout << "Character=" << c << endl;
+	cout << d;
+	cout << e;
+	return 0;
 }
