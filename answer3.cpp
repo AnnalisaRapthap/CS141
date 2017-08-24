@@ -10,7 +10,7 @@ int main()
     cin >> b;
     for(j=1;j<6;j++)
     {
-         cout << "Press 1 for sum, 2 for difference, 3 for product and 4 for quotient, 5 for quotient" << endl;
+         cout << "Press 1 for sum, 2 for difference, 3 for product and 4 for quotient, 5 for remainder" << endl;
     cin >> i;
 
 
@@ -31,7 +31,7 @@ int main()
     }
     else if(i==4){
         q=a/b;
-        cout << "Quotient=" << q << endl;
+        cout << "Remainder=" << q << endl;
     }
 
 
